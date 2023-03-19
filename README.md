@@ -1,1 +1,2 @@
 # DiningPhilosophers
+the dining philosophers problem (invented by Edsger Dijkstra) involves 5 philosophers sitting around a table and only think and eat. between each philosopher, there is only one chopstick. each philosopher wants to eat at the same time, and grabs the chopstick to his left, when the philosopher goes to grab the chopstick on his right, he will be delayed forever from eating(deadlock) as the philosopher on his right has already grabbed the chopstick. here I will model the dining philosophers problem using semaphores.
